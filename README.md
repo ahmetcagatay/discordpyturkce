@@ -64,8 +64,7 @@ async def on_message(message):
 
 client.run('token burada yer alır')
 ```
-* Bu dosyayı ornek_bot.py olarak adlandıralım. Kitaplıkla çelişeceğinden dolayı dosya ismini **discord.py** vermemeye dikkat edin.
-Burada birçok şey oluyor. Bu yüzden size gerçekleşen işlemleri adım adım göstereceğim.
+* Bu dosyayı ornek_bot.py olarak adlandıralım. Kitaplıkla çelişeceğinden dolayı dosya ismini **discord.py** vermemeye dikkat edin. Örnek çok uzun olduğu için işlemleri adım adım anlatacağım.
 İlk satır sadece kütüphaneyi içe aktarır. Eğer burada **ModuleNotFoundError** veya **ImportError** hatası ile karşılaşırsanız, bu kütüphaneyi doğru yüklemediğiniz anlamına gelir. Bunun için [**KURULUM**](https://github.com/Berkayerenemin/discordpyturkce#kurulum) kısmına bakın.
 
 * Ardından, bir İstemci (Client) örneği oluşturuyoruz. Bu Client bizim Discord ile bağlantımızı sağlayacaktır.
